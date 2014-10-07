@@ -1,0 +1,7 @@
+/target
+/.settings
+/.idea
+/test-output
+.DS_Store
+/*.iml
+atlassian-ide-plugin.xml
