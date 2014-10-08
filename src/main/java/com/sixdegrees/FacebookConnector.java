@@ -73,7 +73,7 @@ public class FacebookConnector {
 
     private Optional<Friend> befriend(WebElement element, Friend friend) {
         Friend clicked = null;
-        if (friend.getNoOfMutualFrieds() >= 15) {
+        if (friend.getNoOfMutualFrieds() >= 14) {
             WebElement button = element.findElement(By.cssSelector(friend.getAddLink()));
             if ("Add friend".equalsIgnoreCase(button.getText())) {
                 System.out.println("Befriending " + friend.getName());
